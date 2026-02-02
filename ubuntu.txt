@@ -1,0 +1,27 @@
+          Basic commands
+
+pwd                  # Show current directory
+ls                   # List files
+ls -l                # Detailed list
+ls -a                # Show hidden files
+cd foldername        # Go to folder
+cd ..                # Go back one level
+cd ~                 # Go to home directory
+mkdir foldername     # Create folder
+rmdir foldername     # Delete empty folder
+
+
+
+        File Related operation
+
+touch file.txt               # Create file
+cat file.txt                 # View file content
+nano file.txt                # Open file in nano editor
+vim file.txt                 # Open file in vim editor
+cp file1 file2               # Copy file
+mv file1 folder/             # Move file
+mv oldname newname            # Rename file
+rm file.txt                  # Delete file
+rm -r foldername              # Delete folder with files
+
+
