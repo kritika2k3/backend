@@ -1,0 +1,40 @@
+Git
+
+how to check git version
+    >git --version
+
+Show me the current situation
+    >git status
+  
+
+to initialize the git
+   >git init
+
+to add files                         #this add our files to staging area
+   >git add file1,file2,file3       #this is for single single files
+   >git add .                       #this is for entire files we want to add
+
+to unstage files
+   >git rm --cached <file1> <file2>
+
+commit code 
+   > git commit -m "add content to second file"
+
+to see the history what what comit has done
+   >git log
+   >git log --oneline             #this is used to show the history of comit in one line
+
+ignore folders                    
+#they are that folders that git ignore complelety ,they do not allow anything to see in  this folder
+    
+
+branches
+  >git branch            #shows all branch
+
+  >git branch branchname     #create new branch
+
+  >git switch bug-fix        #it swtiches from master or main to new branch created 
+
+  >git switch -c dark-mode   #it switches branch,,if branch is created is good else it will first create the branch and then it will switch
+
+  >git checkout              #it is used to move or switch between branches
